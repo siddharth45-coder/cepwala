@@ -1,0 +1,686 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Content Reader - Page {{ current_page }} of {{ total_pages }}</title>
+    <style>
+        :root {
+            --bg-body: #f8fafc;
+            --bg-card: #ffffff;
+            --border-color: #e2e8f0;
+            --text-main: #0f172a;
+            --text-muted: #64748b;
+            --primary: #2563eb;
+            --primary-hover: #1d4ed8;
+            --primary-active: #1e40af;
+            --btn-secondary-bg: #f1f5f9;
+            --btn-secondary-border: #cbd5e1;
+            --btn-secondary-hover: #e2e8f0;
+            --btn-disabled-bg: #f1f5f9;
+            --btn-disabled-text: #94a3b8;
+            --badge-bg: #e0f2fe;
+            --badge-text: #0369a1;
+            --copy-success-bg: #16a34a;
+            --copy-success-text: #ffffff;
+            --danger-text: #dc2626;
+            --danger-bg: #fef2f2;
+            --shadow-sm: 0 1px 3px rgba(0, 0, 0, 0.05), 0 1px 2px rgba(0, 0, 0, 0.03);
+            --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.08), 0 2px 4px -2px rgba(0, 0, 0, 0.05);
+            --shadow-lg: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+            --radius-md: 10px;
+            --radius-lg: 14px;
+        }
+
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --bg-body: #090d16;
+                --bg-card: #131b2e;
+                --border-color: #1e293b;
+                --text-main: #f1f5f9;
+                --text-muted: #94a3b8;
+                --primary: #3b82f6;
+                --primary-hover: #60a5fa;
+                --primary-active: #2563eb;
+                --btn-secondary-bg: #1e293b;
+                --btn-secondary-border: #334155;
+                --btn-secondary-hover: #2e3d55;
+                --btn-disabled-bg: #182234;
+                --btn-disabled-text: #475569;
+                --badge-bg: #0c2a4d;
+                --badge-text: #7dd3fc;
+                --copy-success-bg: #15803d;
+                --danger-text: #f87171;
+                --danger-bg: #321616;
+                --shadow-sm: 0 1px 3px rgba(0, 0, 0, 0.3);
+                --shadow-md: 0 4px 10px rgba(0, 0, 0, 0.35);
+                --shadow-lg: 0 20px 25px -5px rgba(0, 0, 0, 0.6);
+            }
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+            background-color: var(--bg-body);
+            color: var(--text-main);
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 32px 16px 48px;
+            line-height: 1.6;
+        }
+
+        .container {
+            width: 100%;
+            max-width: 860px;
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+
+        /* Header Section */
+        header {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            text-align: center;
+        }
+
+        h1 {
+            font-size: 2rem;
+            font-weight: 700;
+            letter-spacing: -0.02em;
+            color: var(--text-main);
+        }
+
+        .meta-bar {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 12px;
+            font-size: 0.92rem;
+            color: var(--text-muted);
+            font-weight: 500;
+            flex-wrap: wrap;
+        }
+
+        .meta-badge {
+            background-color: var(--bg-card);
+            border: 1px solid var(--border-color);
+            padding: 4px 12px;
+            border-radius: 9999px;
+            box-shadow: var(--shadow-sm);
+        }
+
+        .meta-source {
+            background-color: var(--badge-bg);
+            color: var(--badge-text);
+            border: 1px solid transparent;
+            font-weight: 600;
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+        }
+
+        .btn-inline-revert {
+            background: none;
+            border: none;
+            color: var(--primary);
+            cursor: pointer;
+            text-decoration: underline;
+            font-size: 0.85rem;
+            font-weight: 600;
+            margin-left: 4px;
+        }
+
+        .btn-inline-revert:hover {
+            opacity: 0.8;
+        }
+
+        /* Action Toolbar */
+        .toolbar {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            gap: 12px;
+        }
+
+        .nav-group, .action-group {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        /* Buttons */
+        .btn {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            gap: 8px;
+            padding: 9px 18px;
+            font-size: 0.95rem;
+            font-weight: 600;
+            border-radius: var(--radius-md);
+            text-decoration: none;
+            cursor: pointer;
+            border: 1px solid transparent;
+            transition: all 0.15s ease-in-out;
+            user-select: none;
+        }
+
+        .btn:focus-visible {
+            outline: 2px solid var(--primary);
+            outline-offset: 2px;
+        }
+
+        .btn-nav {
+            background-color: var(--bg-card);
+            color: var(--text-main);
+            border-color: var(--btn-secondary-border);
+            box-shadow: var(--shadow-sm);
+        }
+
+        .btn-nav:hover:not(.disabled) {
+            background-color: var(--btn-secondary-hover);
+            transform: translateY(-1px);
+        }
+
+        .btn-paste {
+            background-color: var(--bg-card);
+            color: var(--text-main);
+            border-color: var(--btn-secondary-border);
+            box-shadow: var(--shadow-sm);
+        }
+
+        .btn-paste:hover {
+            border-color: var(--primary);
+            color: var(--primary);
+            transform: translateY(-1px);
+        }
+
+        .btn-copy {
+            background-color: var(--primary);
+            color: #ffffff;
+            box-shadow: var(--shadow-sm);
+        }
+
+        .btn-copy:hover {
+            background-color: var(--primary-hover);
+            transform: translateY(-1px);
+        }
+
+        .btn-copy:active {
+            background-color: var(--primary-active);
+            transform: translateY(0);
+        }
+
+        .btn-copy.copied {
+            background-color: var(--copy-success-bg);
+            color: var(--copy-success-text);
+        }
+
+        .btn.disabled,
+        .btn:disabled {
+            background-color: var(--btn-disabled-bg);
+            color: var(--btn-disabled-text);
+            border-color: var(--border-color);
+            cursor: not-allowed;
+            pointer-events: none;
+            box-shadow: none;
+            transform: none;
+        }
+
+        /* Content Container */
+        .content-box {
+            background-color: var(--bg-card);
+            border: 1px solid var(--border-color);
+            border-radius: var(--radius-lg);
+            padding: 32px 36px;
+            font-size: 1.125rem;
+            line-height: 1.8;
+            color: var(--text-main);
+            min-height: 380px;
+            box-shadow: var(--shadow-md);
+            white-space: normal;
+            word-wrap: break-word;
+            text-align: justify;
+            text-justify: inter-word;
+        }
+
+        /* Status / Empty States */
+        .status-empty {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 260px;
+            text-align: center;
+            color: var(--text-muted);
+            gap: 12px;
+        }
+
+        .status-empty strong {
+            color: var(--text-main);
+            font-size: 1.25rem;
+        }
+
+        /* Modal Overlay */
+        .modal-overlay {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100vw;
+            height: 100vh;
+            background-color: rgba(0, 0, 0, 0.55);
+            backdrop-filter: blur(4px);
+            display: none;
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+            z-index: 999;
+        }
+
+        .modal-overlay.active {
+            display: flex;
+        }
+
+        .modal-card {
+            background-color: var(--bg-card);
+            border: 1px solid var(--border-color);
+            border-radius: var(--radius-lg);
+            width: 100%;
+            max-width: 720px;
+            box-shadow: var(--shadow-lg);
+            display: flex;
+            flex-direction: column;
+            overflow: hidden;
+            animation: modalFadeIn 0.2s ease-out;
+        }
+
+        @keyframes modalFadeIn {
+            from {
+                opacity: 0;
+                transform: scale(0.97);
+            }
+            to {
+                opacity: 1;
+                transform: scale(1);
+            }
+        }
+
+        .modal-header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 20px 24px;
+            border-bottom: 1px solid var(--border-color);
+        }
+
+        .modal-title {
+            font-size: 1.25rem;
+            font-weight: 700;
+            color: var(--text-main);
+        }
+
+        .modal-close-btn {
+            background: none;
+            border: none;
+            font-size: 1.5rem;
+            line-height: 1;
+            color: var(--text-muted);
+            cursor: pointer;
+            padding: 4px;
+        }
+
+        .modal-close-btn:hover {
+            color: var(--text-main);
+        }
+
+        .modal-body {
+            padding: 24px;
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+        }
+
+        .modal-body p {
+            font-size: 0.92rem;
+            color: var(--text-muted);
+        }
+
+        .paste-textarea {
+            width: 100%;
+            height: 280px;
+            border: 1px solid var(--border-color);
+            border-radius: var(--radius-md);
+            padding: 14px 16px;
+            font-family: inherit;
+            font-size: 1rem;
+            line-height: 1.5;
+            background-color: var(--bg-body);
+            color: var(--text-main);
+            resize: vertical;
+            outline: none;
+            transition: border-color 0.15s;
+        }
+
+        .paste-textarea:focus {
+            border-color: var(--primary);
+        }
+
+        .modal-stats {
+            display: flex;
+            justify-content: space-between;
+            font-size: 0.88rem;
+            color: var(--text-muted);
+        }
+
+        .modal-footer {
+            padding: 16px 24px;
+            background-color: var(--bg-body);
+            border-top: 1px solid var(--border-color);
+            display: flex;
+            justify-content: flex-end;
+            gap: 12px;
+        }
+
+        /* Footer Hints */
+        .footer-hints {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            font-size: 0.85rem;
+            color: var(--text-muted);
+            padding: 4px 8px;
+            flex-wrap: wrap;
+            gap: 8px;
+        }
+
+        .kbd-badge {
+            background: var(--bg-card);
+            border: 1px solid var(--border-color);
+            border-radius: 4px;
+            padding: 2px 6px;
+            font-size: 0.8rem;
+            box-shadow: var(--shadow-sm);
+        }
+
+        @media (max-width: 640px) {
+            body {
+                padding: 20px 12px 32px;
+            }
+
+            h1 {
+                font-size: 1.6rem;
+            }
+
+            .content-box {
+                padding: 20px;
+                font-size: 1.05rem;
+                line-height: 1.7;
+                text-align: left;
+            }
+
+            .toolbar {
+                flex-direction: column;
+                align-items: stretch;
+            }
+
+            .nav-group, .action-group {
+                justify-content: space-between;
+                width: 100%;
+            }
+
+            .btn-nav, .btn-paste, .btn-copy {
+                flex: 1;
+                text-align: center;
+            }
+
+            .footer-hints {
+                justify-content: center;
+                text-align: center;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- Header -->
+        <header>
+            <h1>Content Reader</h1>
+            <div class="meta-bar">
+                <span class="meta-badge" id="pageMeta">Page {{ current_page }} of {{ total_pages }}</span>
+                {% if total_words > 0 %}
+                <span class="meta-badge" id="wordRangeMeta">Words: {{ start_word_num }}–{{ end_word_num }}</span>
+                <span class="meta-badge" id="totalWordsMeta">Total: {{ total_words }} words</span>
+                {% endif %}
+                
+                <!-- Source indicator -->
+                {% if source_type == 'pasted' %}
+                    <span class="meta-badge meta-source">
+                        <span>Source: Pasted Text</span>
+                        <a href="/reset" class="btn-inline-revert" title="Revert to content.txt">Revert to content.txt</a>
+                    </span>
+                {% else %}
+                    <span class="meta-badge meta-source">
+                        <span>Source: content.txt</span>
+                    </span>
+                {% endif %}
+            </div>
+        </header>
+
+        <!-- Action Toolbar -->
+        <div class="toolbar">
+            <div class="nav-group">
+                {% if has_prev %}
+                    <a href="/?page={{ prev_page }}" id="prevBtn" class="btn btn-nav" title="Previous page (Left Arrow)">← Previous</a>
+                {% else %}
+                    <button class="btn btn-nav disabled" id="prevBtn" disabled>← Previous</button>
+                {% endif %}
+
+                {% if has_next %}
+                    <a href="/?page={{ next_page }}" id="nextBtn" class="btn btn-nav" title="Next page (Right Arrow)">Next →</a>
+                {% else %}
+                    <button class="btn btn-nav disabled" id="nextBtn" disabled>Next →</button>
+                {% endif %}
+            </div>
+
+            <div class="action-group">
+                <button type="button" id="openPasteModalBtn" class="btn btn-paste">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M16 4h2a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h2"></path>
+                        <rect x="8" y="2" width="8" height="4" rx="1" ry="1"></rect>
+                    </svg>
+                    <span>Paste Content</span>
+                </button>
+
+                <button type="button" id="copyBtn" class="btn btn-copy" {% if total_words == 0 %}disabled{% endif %}>
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect>
+                        <path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path>
+                    </svg>
+                    <span id="copyBtnText">Copy Text</span>
+                </button>
+            </div>
+        </div>
+
+        <!-- 1200-Word Content Area -->
+        <main class="content-box" id="contentContainer">
+            {% if total_words > 0 %}
+                {{ page_text }}
+            {% elif status == 'missing' %}
+                <div class="status-empty">
+                    <strong>content.txt Not Found</strong>
+                    <p>You can paste your content directly into the website or place <code>content.txt</code> in the project folder.</p>
+                    <button type="button" class="btn btn-copy" onclick="openModal()">Paste Content Now</button>
+                </div>
+            {% elif status == 'empty' %}
+                <div class="status-empty">
+                    <strong>No Content Loaded</strong>
+                    <p>Paste your content into the website or add text to <code>content.txt</code>.</p>
+                    <button type="button" class="btn btn-copy" onclick="openModal()">Paste Content Now</button>
+                </div>
+            {% else %}
+                <div class="status-empty">
+                    <strong>No Content</strong>
+                    <p>No content available to display.</p>
+                    <button type="button" class="btn btn-copy" onclick="openModal()">Paste Content Now</button>
+                </div>
+            {% endif %}
+        </main>
+
+        <!-- Bottom Navigation & Shortcuts Hint -->
+        <div class="footer-hints">
+            <span>Shortcuts: <span class="kbd-badge">←</span> Previous | <span class="kbd-badge">→</span> Next</span>
+            <span>1200 words per page</span>
+        </div>
+    </div>
+
+    <!-- Paste Content Modal -->
+    <div class="modal-overlay" id="pasteModal">
+        <div class="modal-card">
+            <div class="modal-header">
+                <h2 class="modal-title">Paste Full Content</h2>
+                <button type="button" class="modal-close-btn" id="closePasteModalBtn" title="Close (Esc)">&times;</button>
+            </div>
+            <form action="/paste" method="POST" id="pasteForm">
+                <div class="modal-body">
+                    <p>Paste your entire text below (any length: 15,000+ words). The app will clean excessive spaces/tabs/newlines and paginate it into exact 1200-word chunks.</p>
+                    <textarea 
+                        name="content" 
+                        id="pasteInput" 
+                        class="paste-textarea" 
+                        placeholder="Paste your full text here..."
+                        required
+                    ></textarea>
+                    <div class="modal-stats">
+                        <span id="modalWordCount">0 words detected</span>
+                        <span id="modalPageEst">~0 pages</span>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-nav" id="cancelModalBtn">Cancel</button>
+                    <button type="submit" class="btn btn-copy">Process & Paginate</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <script>
+        // Modal Logic
+        const pasteModal = document.getElementById('pasteModal');
+        const openPasteModalBtn = document.getElementById('openPasteModalBtn');
+        const closePasteModalBtn = document.getElementById('closePasteModalBtn');
+        const cancelModalBtn = document.getElementById('cancelModalBtn');
+        const pasteInput = document.getElementById('pasteInput');
+        const modalWordCount = document.getElementById('modalWordCount');
+        const modalPageEst = document.getElementById('modalPageEst');
+
+        function openModal() {
+            pasteModal.classList.add('active');
+            pasteInput.focus();
+        }
+
+        function closeModal() {
+            pasteModal.classList.remove('active');
+        }
+
+        if (openPasteModalBtn) openPasteModalBtn.addEventListener('click', openModal);
+        if (closePasteModalBtn) closePasteModalBtn.addEventListener('click', closeModal);
+        if (cancelModalBtn) cancelModalBtn.addEventListener('click', closeModal);
+
+        // Close on clicking backdrop
+        pasteModal.addEventListener('click', (e) => {
+            if (e.target === pasteModal) closeModal();
+        });
+
+        // Live word & page counter inside paste textarea
+        pasteInput.addEventListener('input', () => {
+            const text = pasteInput.value.trim();
+            const words = text ? text.split(/\s+/).length : 0;
+            const pages = Math.ceil(words / 1200) || 0;
+            modalWordCount.textContent = `${words.toLocaleString()} words detected`;
+            modalPageEst.textContent = `~${pages} page${pages === 1 ? '' : 's'}`;
+        });
+
+        // Copy to clipboard functionality
+        const copyBtn = document.getElementById('copyBtn');
+        const copyBtnText = document.getElementById('copyBtnText');
+        const contentContainer = document.getElementById('contentContainer');
+
+        if (copyBtn) {
+            let resetTimer = null;
+
+            copyBtn.addEventListener('click', async () => {
+                const textToCopy = contentContainer ? contentContainer.innerText.trim() : '';
+                if (!textToCopy) return;
+
+                try {
+                    if (navigator.clipboard && window.isSecureContext) {
+                        await navigator.clipboard.writeText(textToCopy);
+                    } else {
+                        const tempTextArea = document.createElement('textarea');
+                        tempTextArea.value = textToCopy;
+                        tempTextArea.style.position = 'fixed';
+                        tempTextArea.style.left = '-9999px';
+                        document.body.appendChild(tempTextArea);
+                        tempTextArea.focus();
+                        tempTextArea.select();
+                        document.execCommand('copy');
+                        document.body.removeChild(tempTextArea);
+                    }
+
+                    copyBtn.classList.add('copied');
+                    copyBtnText.textContent = 'Copied!';
+
+                    if (resetTimer) clearTimeout(resetTimer);
+                    resetTimer = setTimeout(() => {
+                        copyBtn.classList.remove('copied');
+                        copyBtnText.textContent = 'Copy Text';
+                    }, 2000);
+                } catch (err) {
+                    console.error('Failed to copy text:', err);
+                }
+            });
+        }
+
+        // Keyboard arrow navigation
+        document.addEventListener('keydown', (event) => {
+            // Close modal with Escape key
+            if (event.key === 'Escape' && pasteModal.classList.contains('active')) {
+                closeModal();
+                return;
+            }
+
+            // Do NOT trigger arrow navigation if modal is open or user is typing
+            if (pasteModal.classList.contains('active')) {
+                return;
+            }
+
+            const activeTag = document.activeElement ? document.activeElement.tagName : '';
+            if (activeTag === 'INPUT' || activeTag === 'TEXTAREA' || (document.activeElement && document.activeElement.isContentEditable)) {
+                return;
+            }
+
+            if (event.key === 'ArrowRight') {
+                const nextBtn = document.getElementById('nextBtn');
+                if (nextBtn && nextBtn.tagName === 'A' && nextBtn.href) {
+                    window.location.href = nextBtn.href;
+                }
+            } else if (event.key === 'ArrowLeft') {
+                const prevBtn = document.getElementById('prevBtn');
+                if (prevBtn && prevBtn.tagName === 'A' && prevBtn.href) {
+                    window.location.href = prevBtn.href;
+                }
+            }
+        });
+    </script>
+</body>
+</html>
