@@ -1,0 +1,1523 @@
+1    CHAPTER 1: INTRODUCTION 
+1.1 Introduction to Digital Privacy 
+Almost everything people do today has some digital component to it. Talking to friends, 
+paying for groceries, applying for a job, watching a show or checking the bank balance, all of 
+this now happens through a phone or a computer rather than in person. Along the way, a huge 
+amount of personal information passes through apps, websites and servers that most users 
+never think about. Digital privacy is simply the idea that this information belongs to the 
+person it describes, and that they should have some say in who gets to see it, use it or store it. 
+It is easy to assume that privacy is something only "tech-savvy" people need to worry about, 
+but that is not true. A person who has never written a line of code still has a phone number, a 
+bank account, a set of photographs and a browsing history that can all be misused if they fall 
+into the wrong hands. This project looks at how aware ordinary community members are of 
+these issues and tries to build a case for why awareness matters. 
+1.2 Background of the Study 
+India has seen one of the fastest digital transitions in the world over the last several years. 
+Cheap smartphones and inexpensive mobile data have brought millions of first-time users 
+online, and services that used to require a physical visit, banking, bill payments, government 
+forms, shopping, can now be completed from a phone in a matter of minutes. UPI-based 
+payment apps in particular have changed how people transact, letting someone send money 
+with just a phone number or a scanned code. 
+This speed of adoption is impressive, but it has a downside. A lot of people started using 
+digital services faster than they learned how to use them safely. Many users have never been 
+taught what a phishing message looks like, why an OTP should never be shared, or why an 
+app asking for access to contacts and location might be a red flag. Awareness has not always 
+kept pace with adoption, and that gap is what this study is interested in exploring.      
+2    1.3 Meaning and Concept of Digital Privacy 
+At its core, digital privacy is about control, the ability to decide what personal information is 
+shared, with whom, and for what purpose. It applies to many different kinds of data: 
+identifying details like a name, phone number or email address; sensitive government 
+identifiers such as an Aadhaar or PAN number; financial information like bank account or 
+card details; login credentials such as passwords and PINs; one-time passwords (OTPs) used 
+to verify transactions; and even less obvious data such as location history or app usage 
+patterns. 
+It helps to separate privacy from security, even though the two are related. Security is about 
+the technical measures that keep data safe from unauthorised access, things like encryption or 
+firewalls. Privacy is more about consent and control: whether a person actually knows what 
+data is being collected about them and whether they agreed to it being used that way. A 
+system can be technically secure and still violate someone's privacy if it collects more 
+information than necessary or shares it without the user's knowledge. 
+1.4 Importance of Digital Privacy in Everyday Life 
+Digital privacy is not an abstract concern, it shows up in very ordinary situations. When 
+someone logs into their banking app, buys something online, or messages a friend on social 
+media, they are trusting that platform with a piece of their personal life. If that trust is 
+misplaced, the results can range from minor annoyance, like spam messages, to serious harm, 
+like a drained bank account or a stolen identity. 
+This matters differently for different people. A student may mainly worry about social media 
+privacy and account security. A working professional handling UPI payments and email for 
+both personal and office use has more at stake financially. An older relative who has just 
+started using a smartphone may be the most vulnerable of all, simply because they have had 
+the least exposure to these risks. Digital privacy, in other words, is relevant to everyone who 
+owns a phone, regardless of how comfortable they are with technology. 
+1.5 Common Digital Privacy Risks 
+There are a number of risks that come up repeatedly when people talk about digital safety:      
+3    A. Weak passwords and PINs, reusing the same password everywhere, or choosing 
+something easy to guess, makes it simple for an attacker to break into multiple 
+accounts at once. 
+B. Excessive app permissions, many apps ask for access to contacts, camera, 
+microphone or location that they don't strictly need, and users often tap "allow" 
+without a second thought. 
+C. Phishing, fake emails, texts or calls that impersonate a bank, delivery company or 
+government office to trick people into giving up sensitive details. 
+D. Online payment fraud, fraudulent UPI requests, fake QR codes or scam calls asking 
+for an OTP under the pretext of "verifying" an account. 
+E. Hacked or compromised accounts, often the result of weak passwords, reused 
+credentials, or clicking on malicious links. 
+F. Data misuse, personal information being used for purposes the user never agreed to, 
+such as unsolicited marketing or being sold to third parties. 
+G. Oversharing on social media, posting personal details, travel plans or documents 
+publicly, without realising how that information could be pieced together and 
+misused. 
+None of these risks are exotic or rare. Most people have either experienced one of them 
+directly or know someone who has. 
+1.6 Need for Digital Privacy Awareness in the Community 
+Awareness is one of the cheapest and most effective defences against digital privacy risks, 
+because a lot of these problems rely on the user themselves making a mistake, sharing an 
+OTP, clicking a bad link, or ignoring an app permission. No amount of security technology 
+can fully protect someone who is not aware of these basic precautions. 
+This need is not evenly distributed either. Younger users may be comfortable with apps but 
+careless about privacy settings, while older users may be careful in person but unfamiliar 
+with how scams work online. A community-focused approach makes sense here, since people 
+often learn safe habits from family members, neighbours and peers rather than from formal 
+training. Raising awareness at the community level, even informally, has the potential to 
+reach people who might otherwise never come across this information.      
+4    1.7 Problem Statement 
+Given how central digital services have become to daily life, and given the range of risks 
+described above, there is a real need to understand how aware ordinary community members 
+actually are of digital privacy issues, how they handle passwords and OTPs, whether they 
+think about app permissions, how they protect personal information, and what experiences (if 
+any) they have already had with privacy or fraud-related problems. This project addresses 
+that gap by studying awareness levels within a specific community through a structured 
+survey. 
+1.8 Scope of the Project 
+This project focuses on assessing digital privacy awareness among a defined group of 
+community members using a survey conducted through Google Forms. A total of 105 
+respondents took part in the main survey. The questionnaire was designed to cover several 
+angles of digital privacy, general awareness, password and PIN protection habits, 
+understanding of app permissions, protection of personal information, existing privacy 
+practices, personal experiences with digital privacy issues, confidence in handling online 
+risks, and opinions on the need for awareness programs. 
+The project is limited to studying awareness and reported behaviour among this group of 
+respondents; it does not attempt to build or test any technical security solution, nor does it 
+aim to represent digital privacy awareness across the country as a whole. The detailed survey 
+findings themselves are presented and analysed in the later chapters of this report, not here. 
+1.9 Significance of the Study 
+This study matters for a few reasons. It brings attention to a topic that affects nearly everyone 
+but is rarely discussed directly, most people pick up digital habits informally, without ever 
+really examining whether those habits are safe. By surveying a real community, the project 
+can highlight where awareness is genuinely lacking rather than relying on assumptions. It 
+also gives the researcher a chance to apply classroom knowledge of Information Technology 
+to a real, socially relevant problem, which is the whole point of a Community Engagement 
+Project. Finally, the findings from this study could serve as a small but useful starting point 
+for anyone looking to design awareness efforts for a similar community in the future.      
+5    CHAPTER 2: OBJECTIVES OF THE PROJECT 
+2.1 Aim of the Project 
+The main aim of this project is to understand digital privacy awareness, online safety habits 
+and privacy-related experiences among community members through a structured survey 
+conducted using Google Forms. Rather than assuming what people do or don't know about 
+digital privacy, the project collects direct responses from a group of 105 participants to get a 
+realistic picture of their habits, concerns and gaps in knowledge. The survey was designed to 
+look at this from several angles, how respondents handle passwords and OTPs, whether they 
+pay attention to app permissions, how carefully they share personal information, what privacy 
+practices they already follow, what kinds of problems they have run into, how confident they 
+feel about protecting themselves online, and whether they see a need for more awareness on 
+this topic. 
+2.2 Objectives of the Project 
+Based on the questionnaire used in the survey, the specific objectives of this project are as 
+follows: 
+A. To understand the age groups of respondents and the devices they use to access 
+the internet, in order to get a sense of who the respondents are and how they 
+typically go online. 
+B. To examine whether respondents use strong passwords and PINs, since weak or 
+reused credentials are one of the most basic causes of account compromise. 
+C. To understand whether respondents check app permissions before or after 
+installing applications, as this reflects how much attention users pay to what data an 
+app can access on their device. 
+D. To study respondents' reported experiences of sharing sensitive personal 
+information, such as OTPs, bank details or identity numbers, in order to see how 
+often such information is disclosed and under what circumstances. 
+E. To identify the digital privacy practices followed by respondents, including habits 
+like using screen locks, adjusting social media privacy settings or reviewing account 
+activity.      
+6    F. To understand the digital privacy issues respondents have experienced or 
+witnessed, such as phishing attempts, fraudulent calls or messages, or unauthorised 
+use of personal information. 
+G. To assess respondents' confidence in protecting their personal information 
+online, which helps indicate whether people feel equipped to handle digital privacy 
+risks or feel uncertain about it. 
+H. To understand respondents' opinions about the need for digital privacy 
+awareness programs, in order to see whether the community itself recognises this as 
+an area worth addressing. 
+I. To review the suggestions provided by respondents to improve digital privacy 
+awareness in the community, so that any recommendations made later in this report 
+can be grounded in what respondents themselves felt would help. 
+Each of these objectives corresponds to a section of the survey questionnaire, so that the 
+responses collected can be organised and discussed objective by objective in the later 
+chapters of this report. 
+2.3 Research Questions 
+In line with the objectives above, this project seeks to answer the following questions: 
+A. What age groups and devices are represented among the survey respondents? 
+B. How common is the use of strong passwords and PINs among respondents? 
+C. Do respondents check the permissions requested by the apps they use? 
+D. How often, and in what situations, do respondents report sharing sensitive personal 
+information? 
+E. What digital privacy practices do respondents currently follow? 
+F. What kinds of digital privacy issues have respondents experienced or witnessed? 
+G. How confident are respondents in their ability to protect their personal information 
+online? 
+H. Do respondents feel that digital privacy awareness programs are needed in the 
+community? 
+I. What suggestions do respondents have for improving digital privacy awareness? 
+      
+7    CHAPTER 3: LITERATURE REVIEW / BACKGROUND 
+STUDY 
+3.1 Introduction 
+Digital privacy and data security have emerged as critical areas of study alongside the rapid 
+expansion of digital infrastructure and internet connectivity across the globe. As everyday 
+services, communication, and financial transactions transition to online platforms, the volume 
+of personal data generated and stored by third-party entities continues to grow exponentially. 
+Understanding the existing body of knowledge regarding digital privacy requires examining 
+foundational concepts, technical safeguards, regulatory frameworks, and user awareness 
+patterns. This chapter reviews established literature on digital privacy, personal data 
+protection, authentication methods, mobile application behaviors, online threats, and the legal 
+landscape in India. 
+3.2 Concept of Digital Privacy 
+Digital privacy broadly refers to an individual's right and ability to control their personal 
+information, determining when, how, and to what extent such data is communicated to others. 
+Academic and institutional discussions often distinguish between data privacy and 
+information security. While information security focuses on technical mechanisms—such as 
+encryption, firewalls, and secure servers—designed to prevent unauthorized access, data 
+privacy centers on governance, policy, consent, and user autonomy. 
+ 
+Scholars note that modern digital ecosystems heavily rely on commercial business models 
+often described as surveillance capitalism. In these frameworks, platforms track user 
+behavior, search histories, location patterns, and social interactions to curate personalized 
+content and targeted advertisements. This dynamic frequently creates an imbalance between 
+institutional data collection practices and user awareness, making the preservation of 
+individual privacy an ongoing challenge in modern society. 
+3.3 Personal Data and Data Protection 
+Personal data encompasses any information relating to an identified or identifiable living 
+individual, ranging from basic identifiers like names and contact numbers to sensitive      
+8    financial records, biometric markers, and government-issued identification numbers. 
+Effective data protection requires adherence to core principles such as data minimization, 
+purpose limitation, transparency, and accountability. 
+ 
+International guidelines and institutional frameworks emphasize that organizations collecting 
+user data must secure explicit consent and provide transparent disclosures regarding data 
+processing activities. Protecting personal data is essential not only to prevent financial loss 
+and identity theft but also to uphold fundamental human dignity and autonomy in an 
+increasingly digitized world. 
+3.4 Digital Privacy Awareness Among Internet Users 
+Research consistently indicates a significant gap between rapid technological adoption and 
+user awareness of digital risks. While broad segments of the population utilize smartphones 
+and digital services for daily tasks, many lack formal training in cybersecurity principles. 
+ 
+Studies examining user behavior highlight that awareness levels vary across different 
+demographic groups. Younger demographics often display higher familiarity with social 
+media privacy settings and application interfaces, yet they may still engage in risky behaviors 
+such as oversharing personal details or reusing credentials across multiple platforms. 
+Conversely, older adults or first-time digital users frequently encounter steep learning curves, 
+making them particularly susceptible to social engineering and online fraud due to limited 
+exposure to digital threats. 
+3.5 Password Security and Authentication 
+Authentication mechanisms, particularly passwords and personal identification numbers 
+(PINs), serve as the primary line of defense against unauthorized account access. Academic 
+literature and security advisories from agencies like the Computer Emergency Response 
+Team India (CERT-In) emphasize that weak, predictable, or reused passwords severely 
+compromise account security. 
+ 
+Despite widespread recommendations to implement complex, unique passwords paired with 
+multi-factor authentication (MFA) or one-time passwords (OTPs), user habit studies show a 
+persistent reliance on convenience over security. Common pitfalls include using birthdates,      
+9    simple sequential numbers, or identical login credentials across multiple websites and 
+applications, which allows a single data breach to cascade across multiple personal accounts. 
+3.6 Mobile Application Permissions and Data Privacy 
+Mobile applications frequently request access to core device features and hardware, including 
+contacts, location services, cameras, microphones, and storage. While many permissions are 
+necessary for specific app functionalities, excessive or blanket permission requests pose 
+latent privacy risks. 
+ 
+Behavioral studies regarding mobile applications demonstrate that users frequently grant 
+permissions blindly during installation without reviewing privacy policies or evaluating 
+whether the requested access is proportional to the app's actual utility. This lack of scrutiny 
+enables applications to harvest extensive background data, location histories, and contact 
+directories without explicit, informed ongoing consent from the user. 
+3.7 Phishing, Online Scams and Protection of Personal Information 
+Social engineering attacks, most notably phishing, remain prevalent vectors for cyber fraud. 
+Phishing involves deceptive communications—such as fraudulent emails, text messages, or 
+phone calls—impersonating trusted entities like banks, delivery services, or government 
+agencies to trick individuals into disclosing sensitive credentials, banking details, or OTPs. 
+ 
+Security frameworks stress that technical filters alone cannot eliminate phishing risks because 
+these attacks exploit human psychology and trust. Consequently, cultivating skepticism 
+toward unsolicited communications, verifying sender identities, and exercising caution when 
+sharing personal information online are highlighted as critical protective habits for all internet 
+users. 
+3.8 Digital Privacy in the Indian Context 
+India's digital landscape has expanded rapidly, propelled by affordable mobile data, extensive 
+smartphone penetration, and unified payment architectures like the Unified Payments 
+Interface (UPI). However, this rapid transition has also exposed millions of users to emerging 
+cyber threats. 
+      
+10    From a regulatory standpoint, the legal framework governing privacy has evolved 
+significantly. A landmark milestone was established by the Supreme Court of India in the 
+2017 judgment of Justice K.S. Puttaswamy (Retd.) vs. Union of India, which explicitly 
+recognized the right to privacy as a fundamental right under Article 21 of the Constitution. 
+Subsequently, the Indian Parliament enacted the Digital Personal Data Protection (DPDP) 
+Act, 2023, establishing a comprehensive statutory framework for processing digital personal 
+data, outlining obligations for data fiduciaries, and defining the rights and duties of digital 
+citizens. Official guidance from the Ministry of Electronics and Information Technology 
+(MeitY) and CERT-In continues to stress public awareness, secure digital hygiene, and 
+prompt reporting of cyber incidents. 
+3.9 Review of Relevant Studies 
+1. Saini et al. (2021) evaluated the efficacy of cybersecurity measures and education 
+frameworks in India, concluding that institutional mechanisms alone are insufficient 
+without active community-level education and behavioral shifts toward digital safety. 
+ 
+2. Research by policy initiatives analyzing young adults' online privacy (2023) 
+investigated user awareness regarding social media data harvesting. The findings 
+revealed that while a majority of young users recognized basic profile visibility 
+settings, significantly fewer understood deeper commercial data monetization 
+practices, highlighting a nuanced gap in technical literacy. 
+ 
+3. Government and institutional reviews (CAG, 2024) have underscored that rapid 
+digitization of public and financial services must be paired with robust awareness 
+campaigns to protect vulnerable citizens from identity theft, payment frauds, and 
+unauthorized data exposure. 
+3.10 Research Gap 
+While existing literature extensively examines national cybersecurity policies, 
+macroeconomic data protection frameworks, and large-scale enterprise compliance, there 
+remains a need to understand how ordinary community members perceive and navigate 
+digital privacy in their everyday routines. Macro-level studies often overlook micro-level      
+11    practical habits—such as individual password management, app permission checks, and 
+immediate responses to online fraud. 
+ 
+This project addresses this localized gap by conducting a structured community survey 
+among 105 respondents. Rather than evaluating technical network security or formulating 
+national policy, this study captures self-reported awareness levels, daily digital habits, and 
+practical challenges faced by community members, thereby providing grounded insights into 
+grassroots digital privacy literacy. 
+3.11 Summary 
+This chapter has examined the multifaceted nature of digital privacy, tracing its evolution 
+from foundational data protection concepts to technical authentication safeguards, mobile 
+application behaviors, and social engineering risks. Furthermore, it outlined the Indian 
+regulatory environment, highlighting the significance of the Digital Personal Data Protection 
+Act, 2023, and landmark judicial pronouncements. By reviewing relevant scholarly works 
+and identifying the gap concerning community-level awareness, this background establishes a 
+solid foundation for analyzing the primary survey data presented in the subsequent chapters 
+of this project. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+      
+12    CHAPTER 4: METHODOLOGY 
+4.1 Project Design 
+This project adopts a survey-based descriptive research design to examine digital privacy 
+awareness, online safety habits, and related experiences among community members. A 
+survey-based approach was selected because it allows for the systematic collection of 
+quantitative and qualitative data directly from participants regarding their everyday 
+behaviors, perceptions, and knowledge gaps. A structured questionnaire serves as a suitable 
+instrument for this purpose, as it ensures that every respondent answers the same set of 
+standardized questions, thereby enabling consistent measurement and comparison across 
+responses. The project utilizes descriptive analysis of the collected survey data, organizing 
+responses to present a clear picture of prevailing awareness levels and practices within the 
+target group without attempting to manipulate variables or test a formal experimental 
+hypothesis. 
+4.2 Target Community / Beneficiaries 
+The intended participants for this study comprise community members across different age 
+groups]. The survey successfully gathered 105 responses from participants representing 
+diverse demographic backgrounds. These respondents act as the primary population for 
+evaluating current digital habits related to password security, app permissions, and personal 
+data sharing. The potential beneficiaries of this study include community members 
+themselves, who can gain indirect awareness through reflection on the surveyed issues, as 
+well as future student researchers or local organizers seeking baseline insights to design 
+targeted digital literacy and privacy awareness initiatives. 
+4.3 Data Collection Methods 
+Data collection was executed using Google Forms, a cloud-based survey management tool 
+that allows questionnaires to be distributed digitally. The questionnaire was structured to 
+address multiple dimensions of digital privacy through a total of nine main questions. The 
+instrument incorporated various question formats, including multiple-choice questions for 
+categorical variables, a multiple-select question to capture overlapping behaviors, a rating-
+scale question to assess perceived confidence levels, and an optional open-ended suggestions 
+question to invite qualitative feedback from participants. The optional open-ended      
+13    suggestions question successfully received 51 responses. The gathered data is summarized 
+and analyzed using quantitative counts, percentages, structured tables, visual charts, and 
+thematic grouping of the written qualitative feedback. 
+4.4 Activities Conducted 
+The execution of the project followed a systematic workflow consisting exclusively of 
+confirmed, completed activities: 
+ 
+A. Topic Selection and Scope Definition: Identifying digital privacy awareness within 
+the community as the core subject of study and outlining the project objectives. 
+B. Questionnaire Preparation: Drafting the structured questionnaire items covering 
+demographic details, password hygiene, app permissions, privacy practices, and 
+personal experiences, and implementing them into an online form. 
+C. Form Distribution and Response Collection: Distributing the survey link to 
+potential respondents within the community and collecting a total of 105 completed 
+responses. 
+D. Data Organization and Analysis: Compiling and organizing the recorded responses 
+into structured formats to evaluate trends, calculate frequencies, and synthesize 
+qualitative suggestions. 
+4.5 Resources and Tools Used 
+The completion of this project relied on a specific set of digital resources and productivity 
+tools: 
+ 
+A. Google Forms: Utilized for creating, hosting, and administering the online 
+questionnaire and collecting digital responses. 
+B. Google Sheets / Spreadsheet Tools: Used for organizing, sorting, and managing the 
+raw response dataset. 
+C. Hardware Devices: A computer and smartphone utilized for browsing, form creation, 
+data monitoring, and report drafting. 
+D. Internet Access: Required for online form hosting, literature referencing, and 
+continuous connectivity. 
+      
+14    CHAPTER 5: DATA ANALYSIS AND INTERPRETATION 
+5.1 Data Presentation 
+The process of data analysis is essential for transforming raw survey responses into 
+meaningful insights. In this project, a structured survey instrument administered online was 
+utilized to gather information regarding digital privacy awareness, online safety habits, and 
+privacy-related experiences among community members. Analyzing these responses helps us 
+understand how everyday users navigate digital platforms, protect their personal information, 
+and perceive online security risks. 
+ 
+The survey questionnaire comprised nine main questions covering demographic 
+characteristics, device usage, password hygiene, app permission awareness, sensitive data 
+sharing, regular privacy practices, security incidents, self-confidence ratings, and opinions on 
+community awareness programs. Additionally, an optional open-ended question was included 
+to collect qualitative feedback and suggestions from participants. 
+ 
+To present the findings clearly and objectively, frequency counts and percentages have been 
+calculated for all closed-ended questions. The results are organized into structured tables and 
+discussed in detail across the subsequent sections of this chapter. Tabulating the data allows 
+us to identify prevailing trends, common habits, and potential knowledge gaps within the 
+surveyed group. 
+ 
+5.1.1 Overview of Survey Responses 
+The data collected from the survey reflects the reported behaviors and perceptions of the 
+participating individuals. Each main question in the questionnaire received complete 
+responses from all participants, ensuring consistency across the quantitative dataset. For the 
+optional open-ended suggestions question, a subset of participants provided written 
+comments and recommendations, which were subsequently analyzed using thematic 
+grouping. The presentation below outlines the exact distribution of responses across each 
+survey item, providing an empirical foundation for evaluating community awareness levels. 
+ 
+ 
+      
+15    5.1.2 Presentation of Question-Wise Data 
+This section presents the tabular distribution of responses for each of the nine main questions 
+included in the survey questionnaire. Every table outlines the specific response options, the 
+corresponding number of responses, and the percentage calculated relative to the total 
+respondent base. 
+ 
+Table 5.1: Age Group Distribution 
+Response Option Number of Responses Percentage (%) 
+Below 18 19 18.1 
+18 to 25 51 48.6 
+26 to 40 20 19.0 
+41 to 60 11 10.5 
+Above 60 4 3.8 
+Total 105 100.0 
+Table 5.1 displays the age distribution of the survey participants. Nearly half of the 
+respondents belong to the 18 to 25 age bracket, while older age groups represent smaller 
+proportions of the total respondents. 
+ 
+ 
+ 
+      
+16    Table 5.2: Primary Internet Access Device 
+Response Option Number of Responses Percentage (%) 
+Smartphone 53 50.5 
+Laptop/Desktop 39 37.1 
+Tablet 8 7.6 
+Other 5 4.8 
+Total 105 100.0 
+Table 5.2 outlines the primary devices used by respondents to access the internet. 
+Smartphones emerge as the most frequently used device, followed closely by laptops and 
+desktops. 
+ 
+Table 5.3: Password and PIN Security Habits 
+Response Option Number of Responses Percentage (%) 
+Yes 66 62.9 
+No 23 21.9      
+17    Not Sure 16 15.2 
+Total 105 100.0 
+Table 5.3 summarizes whether respondents use strong passwords or PINs to protect their 
+devices and online accounts. A majority answered affirmatively, while over one-third 
+selected negative or uncertain responses. 
+ 
+Table 5.4: App Permission Checking Behavior 
+Response Option Number of Responses Percentage (%) 
+Always 48 45.7 
+Sometimes 37 35.2 
+Rarely 12 11.4 
+Never 8 7.6 
+Total 105 100.0 
+Table 5.4 shows how frequently respondents check app permissions before installing mobile 
+applications. The results indicate varying degrees of attentiveness toward permission 
+requests. 
+ 
+ 
+      
+18    Table 5.5: Sharing of Sensitive Personal Information 
+Response Option Number of Responses Percentage (%) 
+No 56 53.3 
+Yes 34 32.4 
+Prefer not to say 15 14.3 
+Total 105 100.0 
+Table 5.5 presents responses regarding whether participants have ever shared sensitive 
+personal information online or over the phone. Over half reported never sharing such data, 
+while nearly a third acknowledged doing so. 
+ 
+Table 5.6: Regularly Followed Digital Privacy Practices 
+Response Option Number of 
+Selections  Percentage of 
+Respondents 
+Use strong and unique passwords 64 61.0 
+Enable Two-Factor Authentication 
+(2FA)  54 51.4      
+19    Check app permissions before allowing 
+access  45 42.9 
+Avoid sharing OTPs and passwords 52 49.5 
+Keep my apps and phone updated 40 38.1 
+None of the above 9 8.6 
+Note: Respondents were permitted to select multiple options; percentages exceed 100% in 
+aggregate. 
+ 
+Table 5.6 outlines the specific digital privacy practices followed regularly by respondents. 
+Password management and two-factor authentication are among the most frequently adopted 
+habits. 
+ 
+Table 5.7: Digital Privacy Issues Experienced or Witnessed 
+Response Option Number of Responses Percentage (%) 
+Phishing or scam messages 27 25.7 
+Never experienced any 24 22.9 
+Online payment fraud 20 19.0      
+20    Social media account hacked 17 16.2 
+Data misuse or spam calls 17 16.2 
+Total 105 100.0 
+Table 5.7 displays the types of digital privacy issues or security incidents experienced or 
+witnessed by participants. Phishing messages and online payment frauds represent the most 
+commonly reported incidents. 
+ 
+Table 5.8: Confidence in Protecting Personal Information Online 
+Rating Scale (1 to 5) Number of Responses Percentage (%) 
+1 (Lowest Confidence) 10 9.5 
+2 18 17.1 
+3 (Moderate) 24 22.9 
+4 29 27.6 
+5 (Highest Confidence) 24 22.9 
+Total 105 100.0      
+21    Table 5.8 illustrates respondent ratings regarding their confidence in protecting personal 
+information online on a five-point scale. The ratings span across all levels from low to high 
+confidence. 
+ 
+Table 5.9: Need for Digital Privacy Awareness Programs 
+Response Option Number of Responses Percentage (%) 
+Yes 64 61.0 
+Maybe 32 30.5 
+No 9 8.6 
+Total 105 100.0 
+Table 5.9 captures participants' opinions on whether more awareness programs on digital 
+privacy and online safety should be conducted in the community. An overwhelming majority 
+expressed positive or open support. 
+ 
+5.1.3 Presentation of Open-Ended Feedback 
+The optional open-ended question invited respondents to contribute written suggestions for 
+enhancing community digital privacy awareness. Participants who provided qualitative 
+feedback shared diverse perspectives and recommendations. These textual inputs were 
+categorized into core thematic areas, including community workshops, school and college 
+education, social media awareness campaigns, and simplified educational materials 
+explaining security practices. 
+      
+22    5.2 Analysis of Responses / Feedback 
+5.2.1 Analysis of Question 1: Age Group 
+A. Question and Purpose: The first question asked respondents to specify their age 
+group. This was included to examine the demographic profile of the participants and 
+understand how age distribution relates to digital engagement and privacy awareness. 
+ 
+B. Response Distribution: As detailed in Table 5.1, the participants span multiple age 
+groups, with the 18 to 25 category forming the largest segment at 48.6%. Respondents 
+aged 26 to 40 account for 19.0%, while those below 18 represent 18.1%. Older age 
+groups are smaller, with 41 to 60 making up 10.5% and those above 60 accounting for 
+3.8%. 
+ 
+C. Detailed Interpretation: The higher representation of younger adults and students 
+reflects their active participation in online surveys and digital platforms. Younger 
+demographics frequently use smartphones and web applications for academic and 
+social communication. Meanwhile, the participation of older adults, though smaller, 
+indicates that digital tools are utilized across different generations, albeit with varying 
+levels of digital exposure. 
+ 
+D. Connection with Project Objectives: Understanding the age breakdown helps ground 
+the study's findings in the context of student and community demographics, 
+emphasizing that digital privacy education must address both tech-fluent youth and 
+less experienced senior users. 
+ 
+E. Suggested Chart: Chart Title: Age Group Distribution of Respondents; Chart Type: 
+Bar Chart with age categories on the x-axis and percentage values on the y-axis. 
+ 
+5.2.2 Analysis of Question 2: Internet Access Device 
+A. Question and Purpose: This question identified the primary device respondents use 
+to access the internet. It was designed to understand the hardware medium through 
+which community members interact with online services. 
+      
+23    B. Response Distribution: Table 5.2 shows that smartphones are the primary access 
+device for 50.5% of respondents. Laptops and desktops follow at 37.1%, while tablets 
+account for 7.6% and other devices comprise 4.8%. 
+ 
+C. Detailed Interpretation: The preeminence of smartphones highlights the mobile-first 
+nature of modern internet consumption. Mobile devices accompany users everywhere, 
+handling instant messaging, social media, mobile banking, and digital payments. At 
+the same time, the substantial usage of laptops and desktops indicates that personal 
+computers remain vital for work, education, and more complex online tasks. 
+ 
+D. Connection with Project Objectives: Device preferences directly influence digital 
+privacy risks. Smartphone users face unique challenges regarding mobile app 
+permissions, SMS-based phishing, and mobile wallet security, making device-specific 
+awareness essential. 
+ 
+E. Suggested Chart: Chart Title: Primary Internet Access Devices; Chart Type: Pie 
+Chart displaying the proportional shares of smartphones, laptops/desktops, tablets, 
+and other devices. 
+ 
+5.2.3 Analysis of Question 3: Password and PIN Security / Account Protection 
+A. Question and Purpose: This question examined whether respondents utilize strong 
+passwords or PINs to protect their digital devices and online accounts. It establishes 
+baseline credential protection habits. 
+ 
+B. Response Distribution: Table 5.3 indicates that 62.9% of respondents state they use 
+strong passwords or PINs. However, 21.9% answered negatively, and 15.2% reported 
+being unsure. 
+ 
+C. Detailed Interpretation: While a clear majority claims to maintain strong credential 
+security, over a third of the participants either explicitly do not use strong passwords 
+or lack certainty. In everyday digital environments, weak or reused passwords 
+represent one of the easiest entry points for unauthorized access. Uncertainty 
+regarding password strength suggests that many users may not fully understand what 
+constitutes a secure, complex password.      
+24     
+D. Connection with Project Objectives: Improving password hygiene is a core objective 
+of digital privacy education. The findings point to a clear need to guide community 
+members on creating robust passwords and avoiding credential reuse across multiple 
+services. 
+ 
+E. Suggested Chart: Chart Title: Utilization of Strong Passwords and PINs; Chart Type: 
+Bar Chart comparing Yes, No, and Not Sure responses. 
+ 
+ 
+5.2.4 Analysis of Question 4: App Permission Awareness 
+A. Question and Purpose: This question asked whether users check app permissions 
+(such as Camera, Microphone, Contacts, or Location) before installing applications. It 
+measures proactive scrutiny of mobile application privileges. 
+ 
+B. Response Distribution: Table 5.4 reveals that 45.7% always check permissions, 
+35.2% do so sometimes, 11.4% rarely check, and 7.6% never check. 
+ 
+C. Detailed Interpretation: Although nearly half of the respondents report consistent 
+vigilance, more than half check permissions only occasionally or ignore them entirely. 
+Many users tend to tap through installation prompts quickly to access app features 
+without evaluating whether requested permissions are necessary for the app's core 
+function. This habit exposes users to unnecessary data harvesting by third-party 
+applications. 
+ 
+D. Connection with Project Objectives: Promoting awareness around app permissions 
+helps users protect their personal space, preventing unauthorized access to sensitive 
+device sensors and contact lists. 
+ 
+E. Suggested Chart: Chart Title: Frequency of Checking App Permissions; Chart Type: 
+Bar Chart illustrating frequencies across Always, Sometimes, Rarely, and Never 
+categories. 
+ 
+      
+25    5.2.5 Analysis of Question 5: Sharing of Sensitive Personal Information 
+A. Question and Purpose: This question explored whether participants have ever shared 
+sensitive information—such as OTPs, passwords, Aadhaar details, PAN numbers, or 
+bank data—online or over the phone. 
+ 
+B. Response Distribution: Table 5.5 shows that 53.3% reported never sharing such 
+information, 32.4% acknowledged sharing it under certain circumstances, and 14.3% 
+preferred not to say. 
+ 
+C. Detailed Interpretation: While the majority maintain strict boundaries, nearly a third 
+acknowledge disclosing sensitive information. Disclosing confidential details like 
+OTPs or banking credentials—even if perceived as necessary for legitimate 
+transactions—creates severe vulnerabilities to financial fraud, identity theft, and 
+unauthorized account takeovers. Furthermore, the portion of respondents choosing not 
+to answer reflects the sensitive nature of the topic. 
+ 
+D. Connection with Project Objectives: Addressing the dangers of sharing OTPs and 
+government identifiers is critical for preventing online fraud and safeguarding 
+personal assets within the community. 
+ 
+E. Suggested Chart: Chart Title: History of Sharing Sensitive Personal Information; 
+Chart Type: Pie Chart displaying proportions for No, Yes, and Prefer not to say. 
+ 
+5.2.6 Analysis of Question 6: Digital Privacy Practices 
+A. Question and Purpose: This multiple-select question investigated which specific 
+digital privacy practices respondents regularly follow in their daily routines. 
+ 
+B. Response Distribution: Table 5.6 demonstrates that using strong and unique 
+passwords is the most commonly practiced habit (61.0%), followed by enabling Two-
+Factor Authentication (51.4%) and avoiding sharing OTPs and passwords (49.5%). 
+Checking app permissions was selected by 42.9%, keeping apps and phones updated 
+by 38.1%, while 8.6% indicated "None of the above." 
+      
+26    C. Detailed Interpretation: The results show that foundational security measures like 
+password creation and 2FA are practiced by roughly half to three-thirds of 
+respondents. However, system updates and proactive permission audits show lower 
+adoption rates. The small group selecting "None of the above" highlights individuals 
+who may lack basic protective habits altogether, underscoring a gap in digital literacy. 
+ 
+D. Connection with Project Objectives: Identifying currently adopted practices allows 
+awareness programs to build upon existing habits while reinforcing overlooked safety 
+measures. 
+ 
+E. Suggested Chart: Chart Title: Regularly Followed Digital Privacy Practices; Chart 
+Type: Horizontal Bar Chart comparing selection percentages across practices. 
+ 
+5.2.7 Analysis of Question 7: Digital Privacy Issues Experienced or Witnessed 
+A. Question and Purpose: This question captured real-world security incidents or 
+privacy violations experienced or witnessed by participants. 
+ 
+B. Response Distribution: Table 5.7 indicates that phishing or scam messages are the 
+most frequently encountered issue (25.7%), followed by online payment fraud 
+(19.0%), social media account hacks (16.2%), and data misuse or spam calls (16.2%). 
+Meanwhile, 22.9% reported never experiencing any issues. 
+ 
+C. Detailed Interpretation: Over three-quarters of respondents have experienced or 
+witnessed at least one form of digital privacy issue. The high prevalence of phishing 
+texts, fraudulent payment requests, and compromised social media profiles 
+demonstrates that cyber threats are common occurrences in everyday life rather than 
+rare anomalies. These incidents illustrate how attackers actively exploit user trust and 
+technical gaps. 
+ 
+D. Connection with Project Objectives: Documenting real-world experiences validates 
+the relevance of the project, proving that community members urgently need practical 
+guidance on recognizing and avoiding online scams. 
+      
+27    E. Suggested Chart: Chart Title: Digital Privacy Issues Experienced or Witnessed; Chart 
+Type: Bar Chart displaying reported incident categories. 
+ 
+5.2.8 Analysis of Question 8: Confidence in Protecting Personal Information Online 
+A. Question and Purpose: Using a 1-to-5 rating scale, this question measured how 
+confident respondents feel in safeguarding their personal data online. 
+ 
+B. Response Distribution: Table 5.8 shows a distributed spread across ratings: rating 4 is 
+selected by 27.6%, rating 3 by 22.9%, and rating 5 by 22.9%. Lower confidence is 
+reported by 17.1% at rating 2 and 9.5% at rating 1. 
+ 
+C. Detailed Interpretation: While a strong plurality expresses moderate to high 
+confidence, over a quarter of respondents feel uncertain or vulnerable regarding their 
+online protection skills. Feeling confident does not always equate to possessing 
+advanced technical knowledge, but low confidence points to individuals who feel 
+unequipped to handle modern cyber risks. 
+ 
+D. Connection with Project Objectives: Assessing self-confidence helps determine the 
+psychological readiness of community members, highlighting the need to boost self-
+assurance through practical education. 
+ 
+E. Suggested Chart: Chart Title: User Confidence Levels in Online Privacy Protection; 
+Chart Type: Bar Chart plotting rating values from 1 to 5. 
+ 
+5.2.9 Analysis of Question 9: Need for Digital Privacy Awareness Programs 
+A. Question and Purpose: This question gauged community support for organizing 
+future educational programs on digital privacy and online safety. 
+ 
+B. Response Distribution: Table 5.9 reveals strong community backing, with 61.0% 
+voting Yes, 30.5% voting Maybe, and only 8.6% voting No. 
+ 
+C. Detailed Interpretation: With over 90% of participants responding positively or 
+openly, the results demonstrate overwhelming community recognition that digital      
+28    privacy education is necessary. Residents acknowledge the growing complexity of 
+digital threats and welcome initiatives designed to educate the public. 
+ 
+D. Connection with Project Objectives: This robust support provides empirical 
+justification for community engagement projects, confirming that awareness 
+campaigns address a genuine, recognized community need. 
+ 
+E. Suggested Chart: Chart Title: Community Support for Digital Privacy Awareness 
+Programs; Chart Type: Pie Chart displaying Yes, Maybe, and No proportions. 
+ 
+ 
+5.2.10 Analysis of Optional Suggestions and Feedback 
+A. Question and Purpose: The optional open-ended field captured qualitative 
+recommendations from respondents on how to improve digital privacy awareness in 
+the community. 
+ 
+B. Qualitative Findings: Participants who provided written suggestions emphasized 
+organizing free community workshops, integrating cyber safety into school and 
+college curricula, leveraging social media platforms (such as Instagram and 
+WhatsApp) for awareness campaigns, and distributing simplified educational 
+materials and videos. 
+ 
+C. Detailed Interpretation: The qualitative feedback indicates that community members 
+prefer accessible, multi-channel educational efforts. Rather than complex technical 
+lectures, respondents suggested practical tips, visual aids, and interactive sessions that 
+ordinary citizens can easily understand and apply in daily life. 
+5.3 Key Findings 
+5.3.1 Respondent Profile and Internet Usage 
+The survey results indicate active digital engagement among participants, with younger adults 
+forming the largest demographic segment. Smartphones serve as the primary internet access 
+device for half of the respondents, followed closely by laptops and desktops. This pattern      
+29    highlights a mobile-centric lifestyle where users constantly interact with digital platforms, 
+apps, and online services. 
+ 
+5.3.2 Password Security and Account Protection 
+While a majority of respondents report utilizing strong passwords or PINs, a significant 
+proportion lacks robust credential habits or certainty regarding their password strength. 
+Although two-factor authentication is practiced by over half of the participants, credential 
+management remains an area requiring ongoing education to prevent unauthorized account 
+access. 
+ 
+5.3.3 Awareness of App Permissions and Personal Information 
+App permission scrutiny shows noticeable gaps, with more than half of the respondents 
+checking permissions only occasionally or never. Furthermore, a substantial number of 
+participants acknowledge sharing sensitive information like OTPs or banking details, 
+highlighting vulnerabilities to social engineering and financial fraud. 
+ 
+5.3.4 Digital Privacy Practices 
+The most frequently adopted privacy practices involve using strong passwords and enabling 
+two-factor authentication. However, proactive behaviors like system updates and permission 
+audits are practiced less consistently, and a small segment of respondents reports following 
+none of the listed safety practices. 
+ 
+5.3.5 Digital Privacy Issues 
+A large majority of participants have experienced or witnessed digital privacy issues, with 
+phishing messages and online payment frauds being the most prevalent. This widespread 
+exposure proves that privacy breaches and cyber scams are common challenges affecting 
+everyday community members. 
+ 
+5.3.6 Confidence in Online Privacy Protection 
+Confidence levels in protecting personal information online are moderately distributed. While 
+many participants feel moderately to highly confident, over a quarter express low confidence, 
+pointing to a segment of the community that feels vulnerable to online threats. 
+ 
+      
+30    5.3.7 Community Interest in Digital Privacy Awareness 
+There is overwhelming support for digital privacy education, with over ninety percent of 
+respondents welcoming or remaining open to awareness programs. This high level of interest 
+confirms that the community recognizes the importance of online safety. 
+ 
+5.3.8 Key Themes from Suggestions and Feedback 
+Qualitative feedback highlights strong support for free community workshops, school-level 
+curriculum integration, engaging social media outreach, and simplified educational materials 
+to empower ordinary citizens against cyber risks. 
+ 
+5.3.9 Overall Findings 
+The survey successfully reveals that while community members actively utilize digital 
+services, distinct gaps persist in password certainty, app permission checks, and scam 
+awareness. The findings fulfill the project objectives by establishing a clear picture of 
+grassroots privacy literacy, validating the urgent need for accessible digital safety education, 
+and demonstrating strong community readiness for awareness initiatives. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+      
+31    CHAPTER 6: CONCLUSION 
+6.1 Summary of the Project 
+This community engagement project was undertaken to examine digital privacy awareness, 
+online safety habits, and privacy-related experiences among community members. With the 
+rapid expansion of digital services, smartphones, social media platforms, online banking, and 
+UPI payment systems, everyday interactions have become increasingly digitized. While this 
+digital transition offers immense convenience, it also exposes users to various security and 
+privacy risks. The primary aim of this project was to understand how ordinary community 
+members navigate these challenges, what protective habits they practice, and where 
+knowledge gaps exist. 
+ 
+To achieve this, the project adopted a survey-based descriptive design utilizing an online 
+questionnaire distributed via Google Forms. The survey instrument captured quantitative 
+metrics across nine main closed-ended questions and invited qualitative feedback through an 
+optional open-ended suggestions question. A total of 105 respondents participated in the main 
+survey, providing complete responses across all primary items. Additionally, 51 participants 
+contributed textual input in the optional suggestions section. The collected data was 
+organized, tabulated, and analyzed using frequency counts and percentages, supplemented by 
+thematic grouping of open-ended recommendations, to establish a clear and objective picture 
+of community digital privacy literacy. 
+6.2 Summary of Major Findings 
+The analysis of the survey responses revealed several key insights regarding digital privacy 
+awareness and everyday online behaviors within the participating cohort: 
+ 
+● Demographic Profile and Internet Access: The survey captured responses from 
+participants across multiple age brackets, with young adults aged 18 to 25 forming the 
+largest demographic segment (48.6%). Smartphones emerged as the primary internet 
+access device for 50.5% of respondents, followed closely by laptops and desktops at 
+37.1%, highlighting a mobile-centric digital lifestyle. 
+      
+32    ● Password and PIN Security Habits: While 62.9% of respondents reported using 
+strong passwords or PINs to protect their devices and online accounts, a notable 
+proportion (21.9% answering "No" and 15.2% answering "Not Sure") indicated 
+potential vulnerabilities or uncertainty regarding their credential strength. 
+ 
+● App Permission Scrutiny: When installing mobile applications, 45.7% of 
+participants consistently check requested permissions, while over half do so only 
+sometimes (35.2%), rarely (11.4%), or never (7.6%), pointing to inconsistent 
+awareness regarding background data access by apps. 
+ 
+● Sharing of Sensitive Personal Information: Over half of the respondents (53.3% ) 
+reported never sharing sensitive information such as OTPs, passwords, Aadhaar 
+details, PAN numbers, or bank data online or over the phone. However, 32.4% 
+acknowledged sharing such information under certain circumstances, and 14.3% 
+preferred not to answer. 
+ 
+● Regularly Followed Privacy Practices: The most frequently reported privacy 
+practices included using strong and unique passwords (61.0%), enabling Two-Factor 
+Authentication (51.4%), and avoiding the sharing of OTPs and passwords (49.5%). 
+Checking app permissions (42.9%) and keeping apps and phones updated (38.1%) 
+were practiced less frequently, while 8.6% reported following none of the listed 
+practices. 
+ 
+● Experienced or Witnessed Digital Privacy Issues: A significant majority of 
+participants reported encountering digital privacy issues. Phishing or scam messages 
+were identified as the most frequently selected issue (25.7%), followed by online 
+payment fraud (19.0%), social media account hacking (16.2%), and data misuse or 
+spam calls (16.2%), while 22.9% reported no such experiences. 
+ 
+● Confidence Levels in Online Protection: Respondent confidence in safeguarding 
+personal information online showed a balanced spread across a five-point scale, with 
+27.6% rating their confidence at 4, 22.9% at 3, and 22.9% at 5, while lower 
+confidence ratings (1 and 2) were reported by 26.6% combined. 
+      
+33    ● Support for Awareness Programs: Community interest in digital education was 
+overwhelmingly positive. When asked whether more awareness programs on digital 
+privacy and online safety should be conducted in the community, 64 respondents 
+answered Yes and 32 answered Maybe, with only 9 expressing opposition. 
+ 
+● Qualitative Feedback Themes: The optional open-ended suggestions yielded 
+practical recommendations from participants, emphasizing the organization of free 
+community workshops, the integration of cyber safety into school and college 
+curricula, the use of social media platforms for awareness campaigns, and the 
+distribution of simplified educational videos and posters. 
+ 
+6.3 Achievement of Objectives 
+The specific objectives established at the outset of this project were successfully addressed 
+through the structured questionnaire and subsequent data analysis: 
+ 
+● Demographic and Device Profiling: The project successfully identified the age 
+distribution of respondents and their primary internet access devices, establishing that 
+smartphone-centric usage is prevalent across younger and working-age cohorts. 
+ 
+● Password Hygiene Assessment: The survey evaluated credential protection habits, 
+revealing that while strong passwords and 2FA are utilized by many, a substantial 
+minority lacks robust password practices or certainty. 
+ 
+● App Permission Awareness: The findings demonstrated that permission-checking 
+habits are inconsistent among users, highlighting a clear area where educational 
+intervention is needed. 
+ 
+● Sensitive Data Disclosure: The project documented reported instances of sensitive 
+information sharing, confirming that a third of participants disclose confidential 
+details online or over the phone. 
+      
+34    ● Privacy Practice Identification: Regularly followed safety habits were mapped out, 
+showing strong adoption of password management alongside lower engagement in 
+software updates and permission audits. 
+ 
+● Incident Documentation: By capturing real-world experiences of phishing, payment 
+fraud, and account hacking, the project established that digital privacy threats are 
+widespread among community members. 
+ 
+● Confidence Evaluation: Self-confidence ratings were successfully assessed, 
+revealing a split between confident users and those feeling vulnerable online. 
+ 
+● Community Demand Assessment: The overwhelming positive response regarding 
+awareness programs (64 Yes and 32 Maybe votes) confirmed strong grassroots 
+support for digital safety initiatives. 
+ 
+● Actionable Recommendations: Participant suggestions were successfully reviewed 
+and categorized, providing grounded guidance for future awareness efforts. 
+ 
+It is important to note that while the project objectives of assessing awareness, habits, and 
+community needs were fully met, the project did not attempt to implement or test technical 
+security software, nor did it measure a quantifiable change in behavior, as no before-and-after 
+intervention assessment was conducted. 
+6.4 Overall Conclusion 
+This community engagement project highlights the vital importance of digital privacy in an 
+era where nearly every aspect of daily life relies on digital platforms, smartphones, and online 
+financial transactions. The study demonstrates that while community members actively 
+embrace digital connectivity, significant gaps persist in everyday security habits, such as app 
+permission scrutiny, password certainty, and scam avoidance. The high frequency of reported 
+phishing attempts and online payment frauds underscores that digital threats are common 
+challenges affecting ordinary citizens. 
+      
+35    Understanding community members' reported privacy habits provides valuable insight into 
+grassroots digital literacy. The overwhelmingly favorable response toward awareness 
+programs indicates that residents recognize these risks and welcome structured guidance. 
+Ultimately, the findings establish a solid empirical baseline that can serve as a useful starting 
+point for future educational campaigns, institutional workshops, and community-driven 
+initiatives designed to foster a safer and more privacy-conscious digital environment. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+      
+36    CHAPTER 7: RECOMMENDATIONS / SUGGESTIONS 
+7.1 Introduction 
+This chapter presents a series of practical recommendations and suggestions aimed at 
+improving digital privacy awareness and online safety within the community. The proposals 
+detailed below are derived directly from the empirical findings of the community survey and 
+the qualitative suggestions submitted by participating respondents through the optional open-
+ended question. By examining how community members navigate digital platforms, protect 
+their personal information, and perceive online risks, these recommendations seek to address 
+specific knowledge gaps identified during the project. The proposed actions are designed to 
+be realistic, accessible, and easily implemented by individuals, students, families, and local 
+organizations without requiring specialized technical training or significant financial 
+resources. 
+7.2 Recommendations for Individuals 
+The survey findings indicate that while many participants practice basic security measures, 
+notable vulnerabilities persist in areas such as credential management, app permission 
+scrutiny, and the handling of sensitive personal data. To address these individual-level 
+challenges, the following practical steps are recommended: 
+ 
+● Adopt Robust Password Management: Individuals should avoid reusing simple or 
+identical passwords across multiple online accounts. Using complex, unique 
+passwords or leveraging built-in browser password managers can significantly reduce 
+the risk of multi-account breaches resulting from a single compromised credential. 
+ 
+● Enable Two-Factor Authentication (2FA): Given that a substantial proportion of 
+respondents reported utilizing 2FA, all community members should be encouraged to 
+activate secondary verification methods (such as SMS codes, authenticator apps, or 
+biometric locks) across all critical email, financial, and social media accounts. 
+ 
+● Practice Vigilance with App Permissions: Since a considerable number of users 
+inspect app permissions only occasionally or never, individuals should review app 
+access rights before and after installation. Restricting unnecessary access to device      
+37    microphones, cameras, contact lists, and location services helps prevent unwarranted 
+background data harvesting. 
+ 
+● Exercise Caution with Sensitive Identifiers: With a notable segment of respondents 
+acknowledging the sharing of sensitive details like OTPs or banking information, 
+individuals must exercise extreme caution. Clear personal rules should be established 
+never to disclose OTPs, PINs, Aadhaar numbers, or bank credentials over phone calls, 
+text messages, or unverified web links. 
+ 
+● Maintain Regular Device Updates: Users should routinely update their 
+smartphones, computers, and installed applications to patch known security 
+vulnerabilities and protect against emerging malware threats. 
+7.3 Recommendations for Students and Young Internet Users 
+The survey demographic data revealed that young adults and students aged 18 to 25 form the 
+largest segment of respondents. While this tech-native demographic frequently utilizes 
+smartphones, social media, and online payment systems, they also face distinct digital 
+privacy and social engineering risks: 
+ 
+● Promote Critical Evaluation of Online Communications: Students should be 
+trained to critically evaluate unsolicited messages, promotional links, and friend 
+requests on social media platforms, recognizing common indicators of phishing and 
+social engineering. 
+ 
+● Enhance Social Media Privacy Settings: Young internet users frequently share 
+personal details, location check-ins, and daily schedules publicly. Educational 
+guidance should encourage students to audit their social media privacy settings, 
+restrict profile visibility to trusted connections, and avoid oversharing sensitive 
+personal information online. 
+ 
+● Institutional Role of Schools and Colleges: Educational institutions should integrate 
+basic cybersecurity and digital privacy concepts into their curricula, moving beyond      
+38    general computer literacy to teach practical skills such as identifying scam messages, 
+recognizing secure HTTPS connections, and understanding data privacy rights. 
+ 
+● Student-Led Peer Awareness: Colleges and student organizations can act as 
+advocates for digital safety by organizing informal peer discussions, sharing 
+educational infographics, and guiding older family members or peers on how to 
+navigate digital services safely. 
+7.4 Recommendations for Families and Community Members 
+Families and local communities serve as primary social networks where digital habits are 
+shared and reinforced. Because digital literacy levels vary widely across generations—with 
+older relatives often facing steeper learning curves—community-focused practices are 
+essential: 
+ 
+● Intergenerational Digital Mentorship: Tech-savvy younger family members should 
+proactively guide older relatives through the safe usage of smartphones, digital 
+banking apps, and UPI payment interfaces, explaining why sharing OTPs or clicking 
+unverified links is dangerous. 
+ 
+● Open Family Discussions on Online Scams: Families should regularly discuss 
+recent online scams, fraudulent payment requests, and suspicious phone calls they 
+encounter, creating an open environment where members can seek advice before 
+responding to unfamiliar digital prompts. 
+ 
+● Affordable and Accessible Guidance: Community groups can share simple, 
+vernacular tips regarding online safety via local messaging groups (such as WhatsApp 
+community boards) without requiring expensive equipment or formal technical 
+infrastructure. 
+ 
+● Awareness of Digital Financial Risks: With online payment fraud and phishing 
+messages emerging as prominent issues in the survey, families should establish clear 
+protocols for verifying payment requests and QR codes before completing 
+transactions.      
+39    7.5 Suggestions for Improving Digital Privacy Awareness 
+The optional open-ended suggestions question yielded valuable qualitative feedback from 47 
+respondents. Analysis of these written submissions revealed several recurring themes and 
+practical proposals for community-wide improvement: 
+ 
+● Organizing Free Community Workshops: Several respondents emphasized the 
+need for free, accessible educational workshops within the community to explain how 
+individuals can protect their personal information online. These sessions can be 
+hosted in local community centers or educational institutes, focusing on practical 
+demonstrations of privacy settings and scam avoidance. 
+ 
+● School and College Curriculum Integration: A prominent suggestion called for 
+incorporating digital privacy education directly into school and college syllabi, 
+ensuring that students learn foundational cybersecurity principles early in their 
+academic journey. 
+ 
+● Leveraging Social Media Outreach: Participants highlighted that since large 
+segments of the population actively use platforms like Instagram, WhatsApp, and 
+Facebook, awareness campaigns should utilize these channels to distribute short 
+educational videos, infographics, and safety tips in simple language. 
+ 
+● Simplified Terms of Service and Privacy Policies: Respondents noted that lengthy 
+and complex legal disclosures make it difficult for ordinary users to understand how 
+their data is collected and used. Promoting the use of simplified summaries or 
+encouraging transparency from app developers can help users make informed choices. 
+ 
+● Practical Scam Prevention Guidance: Qualitative feedback underscored the 
+importance of teaching citizens how to check sources before installing apps, accessing 
+websites, or responding to emails, thereby equipping them to counter phishing and 
+online payment fraud effectively.      
+40    7.6 Suggestions for Future Study 
+Building upon the scope and findings of this community engagement project, several 
+directions for future research and exploration can be identified: 
+ 
+● Comparative Cross-Demographic Studies: Future researchers could conduct 
+comparative studies examining digital privacy awareness across distinct generational 
+or socio-economic cohorts (such as comparing rural versus urban residents or student 
+groups versus senior citizens) to determine how demographic variables influence 
+online safety habits. 
+ 
+● Longitudinal Impact Assessment of Awareness Interventions: While this project 
+established a baseline of reported awareness and practices, future studies could 
+evaluate the measurable impact of conducting targeted community workshops or 
+educational campaigns by employing pre- and post-intervention assessments. 
+ 
+● In-Depth Investigation of Mobile App Permission Behaviors: Future research 
+could specifically investigate why users bypass app permission checks, exploring the 
+psychological and usability factors that influence whether individuals read privacy 
+prompts or grant blanket access to mobile applications. 
+ 
+● Analysis of Emerging Financial Fraud Vectors: As digital payment ecosystems 
+continue to evolve, future projects could examine newer forms of online financial 
+fraud and UPI-related scams, assessing how effectively current awareness frameworks 
+protect users against sophisticated social engineering tactics. 
+ 
+ 
+ 
+      
+41    CHAPTER 8: IMPACT OF THE PROJECT 
+8.1 Introduction 
+This chapter examines the impact and contribution of the community engagement project. 
+The project was designed as a survey-based initiative focused on understanding digital 
+privacy awareness, online safety practices, and privacy-related experiences among 
+community members. Rather than conducting an educational intervention or a technical 
+deployment, the project concentrated on capturing and analyzing firsthand perspectives from 
+a participating cohort. This chapter discusses what the collected responses revealed about 
+community awareness, the practical relevance of the findings, and how the insights can 
+inform future educational efforts regarding digital privacy. 
+8.2 Community Reach and Participation 
+The project successfully engaged participants through an online questionnaire distributed via 
+Google Forms, resulting in 105 valid responses to the main survey questions. Additionally, 
+the optional open-ended question asking for suggestions to improve digital privacy awareness 
+received 51 responses. 
+ 
+The survey gathered responses from individuals across various age groups, reflecting diverse 
+demographic representation among the participants. Specifically, the respondents included 19 
+individuals below 18 years of age, 51 participants in the 18 to 25 age bracket, 20 respondents 
+aged 26 to 40, 11 respondents aged 41 to 60, and 4 participants above 60 years of age. While 
+the largest share of participants belonged to the 18 to 25 age group, the participation spanned 
+multiple generations, highlighting a cross-section of community involvement in digital 
+platforms. 
+ 
+8.3 Contribution to Understanding Digital Privacy 
+The survey responses provided valuable clarity regarding how participating community 
+members interact with digital services and manage their online security. By analyzing the 
+data across the primary survey items, the project documented several key patterns in reported 
+behavior and awareness: 
+      
+42    ● Internet Access Devices: Respondents indicated a strong reliance on mobile 
+technology, with 53 participants using smartphones as their primary internet access 
+device, followed by 39 using laptops or desktops, 8 using tablets, and 5 using other 
+devices. 
+ 
+● Credential Protection: When asked about using strong passwords or PINs, 66 
+respondents answered affirmatively, while 23 indicated they did not use strong 
+credentials, and 16 were unsure. 
+ 
+● App Permission Scrutiny: Regarding mobile application permissions, 48 
+respondents reported always checking permissions before installation, 37 checked 
+sometimes, 12 rarely checked, and 8 never checked. 
+ 
+● Personal Information Disclosure: In response to whether they had ever shared 
+sensitive personal information online or over the phone, 34 respondents answered 
+Yes, 56 answered No, and 15 preferred not to say. 
+ 
+● Reported Privacy Practices: In the multiple-select question regarding regular 
+privacy habits, 58 respondents reported using strong and unique passwords, 51 
+enabled Two-Factor Authentication, 48 avoided sharing OTPs and passwords, 45 
+checked app permissions, 40 kept their apps and phones updated, and 10 selected 
+none of the above. 
+ 
+● Privacy Issues and Incidents: When asked about digital privacy issues experienced 
+or witnessed, phishing or scam messages emerged as the most frequently selected 
+category with 27 responses, followed by 20 instances of online payment fraud, 17 
+reports of hacked social media accounts, 17 cases of data misuse or spam calls, and 24 
+respondents reporting no such experiences. 
+ 
+● Self-Confidence Levels: Confidence in protecting personal information online varied 
+across the five-point scale, with 10 respondents selecting rating 1, 18 selecting rating 
+2, 24 selecting rating 3, 29 selecting rating 4, and 24 selecting rating 5. 
+      
+43    ● Demand for Awareness Programs: When asked if more awareness programs should 
+be conducted in the community, 64 respondents answered Yes, 32 answered Maybe, 
+and 9 answered No. 
+ 
+These findings contributed significantly to understanding the specific areas where community 
+members demonstrate positive security habits, as well as the domains—such as app 
+permission reviews and scam recognition—where further educational support is warranted. 
+8.4 Educational and Social Relevance 
+The findings and suggestions gathered through the survey hold substantial educational and 
+social relevance for future digital privacy initiatives. As everyday activities such as banking, 
+communication, shopping, and professional work continue to move online, digital literacy 
+becomes a vital life skill for all citizens, regardless of age or technical background. 
+ 
+The survey results and the qualitative suggestions submitted by 51 respondents highlight a 
+strong community recognition of the need for structured guidance. The optional feedback 
+included practical ideas related to organizing community workshops, integrating cyber safety 
+into school and college curricula, leveraging social media platforms for awareness 
+campaigns, distributing short educational videos, and providing simple guidance on app 
+permissions and scam prevention. While not all 51 responses were substantive 
+recommendations, the meaningful suggestions emphasize that educational institutions, 
+families, and local organizations can utilize these insights to design targeted awareness 
+programs that address real-world vulnerabilities, such as phishing messages and payment 
+fraud. 
+8.5 Observed Impact 
+To maintain academic integrity, it is essential to clearly distinguish between the actual 
+contributions made by this project and outcomes that were outside its scope: 
+ 
+● What the project accomplished: The project successfully developed a structured 
+survey instrument, collected 105 responses, and documented participating community 
+members' reported privacy practices, experienced issues, confidence levels, and      
+44    opinions. This data provided a clear empirical snapshot of community concerns and 
+awareness needs. 
+ 
+● What the findings helped identify: The analysis pinpointed specific areas where 
+respondents excel, such as password creation and 2FA adoption, alongside areas 
+needing improvement, such as app permission checks. Furthermore, the optional 
+suggestions offered valuable perspectives on how future educational content can be 
+delivered effectively. 
+ 
+● What cannot be claimed: No separate educational intervention, training workshop, 
+or before-and-after assessment was conducted as part of this project. Consequently, 
+the project did not directly increase participants' awareness, change their online 
+behavior, prevent fraud, or reduce security risks. The observed impact is strictly 
+limited to the collection, organization, and interpretation of community feedback, 
+rather than a measured transformation in participants' knowledge or conduct. 
+8.6 Overall Assessment of Project Impact 
+In summary, this community engagement project played a meaningful role in documenting 
+the digital privacy practices, concerns, and preferences reported by 105 participating 
+respondents. By exploring device usage, credential habits, permission scrutiny, and exposure 
+to phishing and online scams, the project established a grounded understanding of grassroots 
+digital awareness. 
+ 
+While the survey reflects the views and behaviors of its specific participants rather than the 
+entire population, the overwhelmingly positive community response toward awareness 
+programs—evidenced by 64 Yes and 32 Maybe votes—highlights a clear readiness for future 
+educational initiatives. Ultimately, the project's impact lies in its ability to identify key areas 
+of vulnerability and community interest, providing a reliable foundation for educators, 
+students, and local organizers planning future digital safety campaigns. 
+ 
+      
+45    CHAPTER 9: LIMITATIONS OF THE PROJECT 
+9.1 Introduction 
+The project, titled "Digital Privacy Awareness for Community", was conducted to understand 
+the digital privacy practices, online safety experiences and awareness-related opinions of 
+community members. Information was collected through a Google Forms questionnaire 
+containing nine main questions and an optional question for suggestions. While the survey 
+provided useful information about the participants, certain limitations must be considered 
+when interpreting the findings. These limitations mainly relate to the scope of the responses, 
+the use of self-reported information and the extent to which the questionnaire could assess 
+actual digital privacy practices. 
+9.2 Sample Size Limitations 
+The survey received 105 responses to its nine main questions. These responses provided 
+information about the participants' digital privacy practices and experiences. However, the 
+number of responses alone does not establish whether the sample represents the wider 
+community. The available information does not establish that respondents were selected 
+through a random sampling process or that the sample was designed to represent a particular 
+population. 
+Therefore, the findings should be interpreted as the responses of the individuals who 
+participated in the survey. They should not automatically be treated as representative of all 
+community members. The limitation concerns the extent to which the findings can be 
+generalized, rather than the number of responses being inherently insufficient. 
+9.3 Geographical and Population Limitations 
+The geographical coverage of the survey and the exact population from which respondents 
+were recruited are not established in the available project information. As a result, it is not 
+possible to determine how closely the participants represent a particular locality or a wider 
+population.      
+46    Although the survey included respondents from different age groups, the distribution was not 
+equal. The largest group consisted of participants aged 18 to 25. Consequently, the findings 
+may reflect the experiences and opinions of the participating age groups differently. 
+The results should therefore be understood within the scope of the respondents rather than 
+generalized to an entire town, state or country. 
+9.4 Self-Reported Response Limitations 
+The questionnaire relied on information provided by the respondents themselves. Participants 
+reported their password practices, app permission habits, experiences with digital privacy 
+issues and confidence in protecting personal information. 
+Such responses reflect the participants' understanding and recollection of their own 
+experiences. Some respondents may have interpreted a question differently, forgotten 
+particular incidents or selected an answer that they considered socially acceptable. These are 
+possible limitations of self-reported surveys and cannot be confirmed for individual 
+responses. 
+The survey did not independently verify the accuracy of each participant's answers. 
+Therefore, the results should be interpreted as reported practices and experiences rather than 
+independently confirmed facts. 
+9.5 Questionnaire Limitations 
+The questionnaire covered selected aspects of digital privacy through nine main questions. 
+Although these questions provided information about several important topics, they could not 
+explore every aspect of digital privacy in detail. 
+The closed-ended questions offered predefined response options, which made responses 
+easier to compare but limited the opportunity for participants to explain their experiences in 
+their own words. The optional suggestions question allowed respondents to express additional 
+views. However, only 51 participants submitted a response to this question, and some 
+answers were brief or did not contain a specific suggestion.      
+47    Consequently, the optional responses provided additional perspectives but did not capture 
+detailed feedback from every participant. 
+9.6 Time and Resource Constraints 
+The available project information does not establish specific time-related or resource-related 
+difficulties encountered during the survey. Therefore, no particular constraint can be 
+identified as a confirmed limitation of this project. 
+The study was limited to the information collected through the questionnaire. Additional 
+research methods, such as detailed interviews or follow-up assessments, could provide further 
+information, but their absence should not be treated as evidence of a specific time or resource 
+problem. 
+9.7 Limitations in Measuring Actual Privacy Behavior 
+The survey collected participants' reports about practices such as using strong passwords, 
+enabling two-factor authentication, checking app permissions and avoiding the disclosure of 
+sensitive information. However, these practices were not independently examined or 
+technically verified. 
+For example, selecting that one uses a strong password does not establish the actual strength 
+or uniqueness of that password. Similarly, reporting that app permissions are checked does 
+not confirm how consistently this practice is followed. 
+The questionnaire also did not include a before-and-after assessment of an educational 
+intervention. Therefore, it cannot establish whether participants' knowledge, awareness or 
+behavior changed as a result of the project. The findings describe reported practices and 
+opinions at the time of the survey. 
+9.8 Summary 
+The main limitations of the project relate to the representativeness of the respondents, the 
+unspecified geographical coverage, the reliance on self-reported information and the scope of 
+the questionnaire. The survey provided information about the digital privacy practices and      
+48    experiences reported by its participants, but it did not independently verify their behavior or 
+measure changes in awareness. 
+These limitations do not invalidate the collected responses. They clarify the boundaries 
+within which the findings should be interpreted and help ensure that conclusions remain 
+based on the information actually collected. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+      
+49    CHAPTER 10: REFERENCES 
+ 
+1. Computer Emergency Response Team India (CERT-In). Guidelines for Safe Digital 
+Practices and Cyber Security Awareness. Ministry of Electronics and Information 
+Technology, Government of India. https://www.cert-in.org.in 
+ 
+2. Comptroller and Auditor General of India (CAG). (2024). The Evolving Landscape of 
+Digital Privacy in India: Balancing Innovation and Data Protection by the 
+Government. PursuIT Journal, 9th Edition. https://cag.gov.in/uploads/media/Pursuit-
+9th-edition-0676a48f6b8c7a4-87699484-1-069098113f08f47-45386346.pdf 
+ 
+3. Saini, et al. (2021). Cybersecurity and Its Efficacy in Protecting Digital Privacy in 
+India. EPRA International Journal of Multidisciplinary Research (IJMR), Volume 11, 
+Issue 2. https://doi.org/10.36713/epra2013 
+ 
+4. The Ayushmann Foundation & Internet Freedom Foundation (IFF) Collaborative 
+Study. (2023). Online Privacy and Safety of Young Adults. 
+https://theylacproject.com/wp-content/uploads/2023/05/YRSI-Brief-IFF-Online-
+Privacy-and-Safety-of-Young-Adults-Aug22.pdf 
+ 
+5. Supreme Court of India. (2017). Justice K.S. Puttaswamy (Retd.) vs. Union of India 
+(Writ Petition (Civil) No. 494 of 2012). 
+ 
+6. Supreme Court of India. (2017). Justice K.S. Puttaswamy (Retd.) vs. Union of India 
+(Writ Petition (Civil) No. 494 of 2012). 
+ 
+7. QuestionPro. How to create a survey using Google Forms. 
+https://www.questionpro.com/blog/how-to-create-surveys-with-google-forms/ 
+ 
+8. Google Workspace. Google Forms: Online form builder. 
+https://workspace.google.com/intl/en_in/products/forms/ 
+      
+50    9. SPSS Dissertation Help. How to Create Surveys with Google Forms. 
+https://spssdissertationhelp.com/how-to-create-surveys-with-google-forms/ 
+ 
+10. Center for InfoSec Studies, Aalborg University. A Survey of Privacy Awareness and 
+Current Online Practices of Indian Online Users. 
+https://vbn.aau.dk/ws/files/218591293/A_survey_of_privary_awareness_and_current_
+practices_of_Indian_online_users.pdf 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+      
+51    CHAPTER 11: ANNEXURE 
+11.1 Photographs of Activities 
+Note: No formal community awareness workshops, rallies, or public events were conducted 
+as part of this project; therefore, no photographic documentation of public events is available. 
+ 
+11.2 Attendance / Participant Details 
+Note: To protect participant privacy and maintain data confidentiality, individual respondent 
+identities, email addresses, and timestamps collected via Google Forms are anonymized. The 
+survey participation record is represented below using anonymized participant identification 
+tokens. 
+ 
+Participant ID Age Group Primary Internet 
+Access Device  Survey Completion 
+Status 
+RESP-001 Below 18 Smartphone Completed 
+RESP-002 18 to 25 Smartphone Completed 
+RESP-003 18 to 25 Laptop/Desktop Completed 
+RESP-004 18 to 25 Smartphone Completed 
+RESP-005 18 to 25 Smartphone Completed      
+52    [... RESP-006 to 
+RESP-104 ...]  [Various] [Various] Completed 
+RESP-105 26 to 40 Smartphone Completed 
+11.3 Questionnaire / Feedback Form 
+Digital Privacy Awareness for Community, Survey Questionnaire 
+ 
+● 1. Age Group? 
+○ Below 18 
+○ 18 to 25 
+○ 26 to 40 
+○ 41 to 60 
+○ Above 60 
+ 
+● 2. Which device do you use most to access the internet? 
+○ Smartphone 
+○ Laptop/Desktop 
+○ Tablet 
+○ Other 
+ 
+● 3. Do you use a strong password or PIN to protect your devices and online 
+accounts? 
+○ Yes 
+○ No 
+○ Not Sure 
+ 
+● 4. Before installing an app, do you check the permissions it requests (such as 
+Camera, Microphone, Contacts, or Location, etc.)? 
+○ Always 
+○ Sometimes      
+53    ○ Rarely 
+○ Never 
+ 
+● 5. Have you ever shared personal information (such as OTP, Password, Aadhaar 
+Number, PAN Number, or Bank Details) with someone online or over the phone? 
+○ Yes 
+○ No 
+○ Prefer not to say 
+ 
+● 6. Which of the following digital privacy practices do you regularly follow? 
+(Select all that apply) 
+○ Use strong and unique passwords 
+○ Enable Two-Factor Authentication (2FA) 
+○ Check app permissions before allowing access 
+○ Avoid sharing OTPs and passwords 
+○ Keep my apps and phone updated 
+○ None of the above 
+ 
+● 7. Have you ever experienced or witnessed any digital privacy issue? 
+○ Phishing or scam messages 
+○ Social media account hacked 
+○ Online payment fraud 
+○ Data misuse or spam calls 
+○ Never experienced any 
+ 
+● 8. How confident are you in protecting your personal information online? (Scale 
+1 to 5) 
+○ 1 (Lowest Confidence) 
+○ 2 
+○ 3 (Moderate) 
+○ 4 
+○ 5 (Highest Confidence) 
+      
+54    ● 9. Do you think more awareness programs on digital privacy and online safety 
+should be conducted in the community? 
+○ Yes 
+○ Maybe 
+○ No 
+ 
+● 10. Do you have any suggestions to improve digital privacy awareness in the 
+community? (Optional open-ended text response) 
+ 
+○ [Paragraph Field] 
+ 
+11.4 Certificates / Supporting Documents 
+Note: No formal institutional certificates or external funding approvals were issued for this 
+academic survey-based Community Engagement Project. Supporting academic guidelines 
+and project evaluation templates provided by the college apply. 
+ 
